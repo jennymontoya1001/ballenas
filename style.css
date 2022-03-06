@@ -1,0 +1,39 @@
+header{
+    background-color: #E6E6FA; /*color de fondo header*/
+    padding-top: 0.2px; /*margen interna superior*/
+    padding-bottom: 0.2px; /*margen interna inferior*/
+  }
+  
+  header ul li{
+    list-style-type: none; /*eliminar viñeta*/
+    display: inline; /*display en línea*/
+    margin-right: 40px; /*margen derecha*/
+    color: black; /*color letra*/
+  }
+  
+  header ul{
+    text-align: center; /*centrar texto de la lista ul*/
+  }
+  
+  section img{
+    width: 1264px; /*ancho de la imagen*/
+    height: 450px; /*alto de la imagen*/
+    border-radius: 100px;
+  }
+  
+  footer{
+    text-align: center; /*centrar texto*/
+  }
+  
+  footer span img{
+    margin-top: 10px; /*margen superior*/
+    margin-bottom: 10px; /*margen inferior*/
+    width: 40px; /*ancho*/
+    height: 30px; /*alto*/
+    /*las siguiente línea permite quitar el fondo blanco de una imagen como si fuera un png transparente*/
+    mix-blend-mode: multiply;
+  }
+  
+  body{
+    background: linear-gradient(to right, rgb(98, 98, 155), white); /*gradiente (degradado de colores)*/
+  }

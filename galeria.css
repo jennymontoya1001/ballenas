@@ -1,0 +1,40 @@
+header{
+    background-color: #E6E6FA; /*color de fondo header*/
+    padding-top: 0.2px; /*margen interna superior*/
+    padding-bottom: 0.2px; /*margen interna inferior*/
+  }
+  
+  header ul li{
+    list-style-type: none; /*eliminar viñeta*/
+    display: inline; /*display en línea*/
+    margin-right: 40px; /*margen derecha*/
+    color: black; /*color letra*/
+  }
+  
+  header ul{
+    text-align: center; /*centrar texto de la lista ul*/
+  }
+
+  table{
+      margin: auto; /*margen auto permite centrar*/
+      margin-top: 20px; /*margen superior para bajar la tabla*/
+      border-radius: 10px; /*redondear bordo de la tabla*/
+  }
+
+  table, th{
+      border: 1px solid #000; /*bordo de la tabla color negro*/
+      border-radius: 10px; /*redondear bordo de los encabezados de la tabla*/
+  }
+
+  table th{
+      background-color: #E6E6FA; /*color de fondo de los th*/
+  }
+
+  table tbody img{
+      width: 200px; /*ancho de las imágenes de la tabla*/
+      height: 100px; /*alto de las imágenes de la tabla*/
+  }
+
+  body{
+    background: linear-gradient(to right, rgb(98, 98, 155), white); /*gradiente (degradado de colores)*/
+  }
